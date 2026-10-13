@@ -1,20 +1,12 @@
-# Build output
 build/
-JUCE/build/
+Build/
+cmake-build-*/
+*.o
+*.so
+*.vst3
+*.a
 
-# CMake generated files
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-Makefile
-compile_commands.json
+# Local test audio
+TestAudio/
 
-# Editor files
-.vscode/
-.idea/
-*.swp
-*~
-
-# OS files
 .DS_Store
-Thumbs.db
